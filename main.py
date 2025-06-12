@@ -1,41 +1,40 @@
-#  1. topshiriq
-mevalar = []
-mevalar.append("olma")
-mevalar.append("banan")
-mevalar.append("shaftoli")
-mevalar.append("gilos")
-mevalar.append("nok")
-print("1. Mevalar ro'yxati:", mevalar)
 
-#  2. Elementlarni indeks orqali o‘zgartirish
-mevalar[1] = "anor"
-print("2. 2-element o‘zgartirilgan:", mevalar)
+mevalar = []
+mevalar.append("gilos")
+mevalar.append("anor")
+mevalar.append("shaftoli")
+mevalar.append("olma")
+mevalar.append("nok")
+print(mevalar)
+
+mevalar[1] = "o`rik"
+print(mevalar)
 
 #  3. topshiriq
 mevalar.remove("gilos")
-print("3. 'gilos' o‘chirildi:", mevalar)
+print(mevalar)
 
 #  4. topshiriq
-print("4. Ro‘yxat uzunligi:", len(mevalar))
+print(len(mevalar))
 
-#  5. topshiriq
-sonlar = [12, 5, 8, 1, 19]
-sonlar.sort()
-print("5. Tartiblangan ro‘yxat:", sonlar)
+# 5-misol
+mevalar.sort()
+print(mevalar)
 
-#  6. topshiriq
-sonlar.reverse()
-print("6. Teskari tartib:", sonlar)
+# 6-misol
+mevalar.reverse()
+print(mevalar)
 
-#  7. topshiriq
-indeks = mevalar.index("anor")
-print("7. 'anor' indeksi:", indeks)
+# 7-misol
+mevalar.index("nok")
+print(mevalar)
 
-#  9. topshiriq
-mevalar.insert(2, "uzum")
-print("9. 2-indeksgacha 'uzum' qo‘shildi:", mevalar)
+# 9
+raqam = [1, 2, 2, 3, 4, 5]
+mevalar.extend(raqam)
+print(mevalar)
+#
+# 10
 
-#  10. topshiriq
-raqamlar = [1, 2, 2, 3, 4, 2, 5]
-takror_soni = raqamlar.count(2)
-print("10. Raqam 2 necha marta ishtirok etgan:", takror_soni)
+n = raqam.count(2)
+print(n)
