@@ -33,8 +33,7 @@ print(mevalar)
 raqam = [1, 2, 2, 3, 4, 5]
 mevalar.extend(raqam)
 print(mevalar)
-#
-# 10
+
 
 n = raqam.count(2)
 print(n)
