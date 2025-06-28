@@ -10,10 +10,19 @@
 #
 #     elif summa != 10000:
 #         print("Hali pul chopa vering mablag' yig'ilmadi")
-lst = [1, 2, 3, 4, 5, ]
-for x in lst:
-    print("o'quvchi bahosi ")
-    
+# lst = [1, 2, 3, 4, 5, ]
+# for x in lst:
+#     print("o'quvchi bahosi ")
+#
+malumotlar = {}
+m = input("Isim kiriting")
+k = input("Yosh kiriting")
+h = input("Telefon raqam kiriting")
+malumotlar["name"] = m
+malumotlar["age"] = k
+malumotlar["number"] = h
+print(malumotlar)
+
 
 
 
