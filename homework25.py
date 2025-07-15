@@ -1,11 +1,9 @@
-def teskari(lst, val):
-    yangi = []
-    val_list = []
-    for x in lst:
-        if x == val:
-            yangi.append(x)
-        else:
-            val_list.append(x)
-    new_list = yangi + val_list
-    return sorted(new_list, reverse=True)
-print(teskari([1, 2, 1, 3], 1))
+def juft_sonlar(*args):
+    juftlar = []
+    for son in args:
+        if son % 2 == 0:
+            juftlar.append(son)
+    return juftlar
+
+
+print(juft_sonlar(1, 2, 3, 4, 5, 6))
